@@ -1,0 +1,167 @@
+/* General Styles */
+
+body {
+
+  font-family: 'Segoe UI', Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background: #f9fafc;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+/* Header Section */
+
+header {
+
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+
+  color: white;
+
+  padding: 40px 20px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.5rem;
+
+}
+
+header p {
+
+  font-size: 1.1rem;
+
+  margin-top: 10px;
+
+  opacity: 0.9;
+
+}
+
+/* Section Styling */
+
+section {
+
+  padding: 40px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+}
+
+h2 {
+
+  color: #2c3e50;
+
+  border-bottom: 3px solid #3498db;
+
+  display: inline-block;
+
+  padding-bottom: 5px;
+
+  margin-bottom: 20px;
+
+}
+
+/* List Styling */
+
+ul {
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+li {
+
+  background: #ffffff;
+
+  margin: 10px 0;
+
+  padding: 15px;
+
+  border-left: 5px solid #3498db;
+
+  border-radius: 4px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  transition: transform 0.2s;
+
+}
+
+li:hover {
+
+  transform: translateX(5px);
+
+}
+
+/* Projects Section */
+
+.projects p {
+
+  background: #ecf0f1;
+
+  padding: 15px;
+
+  border-left: 5px solid #27ae60;
+
+  border-radius: 4px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+/* Contact Section */
+
+.contact p {
+
+  font-size: 1.1rem;
+
+  background: #fafafa;
+
+  padding: 10px;
+
+  margin: 5px 0;
+
+  border-left: 5px solid #e67e22;
+
+  border-radius: 4px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 20px;
+
+  margin-top: 30px;
+
+  font-size: 0.9rem;
+
+  letter-spacing: 1px;
+
+}
